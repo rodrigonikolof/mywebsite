@@ -131,15 +131,40 @@ background-color: rgb(65, 56, 56);
   margin-left: 23%;
   margin-top: 120px;
   width: 900px;
-  gap: 10px;
-  background-color: blueviolet;
-  
-  border: 3px solid black;
+  gap: 10px 10px;
+  /* background-color: rgb(0, 0, 0); */
+  border: 3px solid rgb(255, 255, 255);
+  grid-template-columns: 21% 78%;
+  grid-template-rows: 60px;
+  grid-auto-rows: 250px;
+  padding: 10px;
   }
 
+.team-member {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  /* overflow:auto; */
+}
+.team-member p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  color: aliceblue;
+  padding-top:  3px;
+  font-size: 16px;
+  text-indent: 0px;
+  margin-top: 0;
+}
+.team-member h1 {
+  color: aliceblue;
+  margin-top: -5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .team-member:first-child{
-  background-color: red;
-  border-bottom: 3x solid black;
+  /* background-color: red; */
+  grid-column: 1 / -1;
+  
+  
 }
 
 
@@ -155,6 +180,7 @@ background-color: rgb(65, 56, 56);
     width: 900px;
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: 115px;
     grid-auto-rows: 200px;
     gap: 10px;
     padding: 10px;
@@ -173,10 +199,10 @@ background-color: rgb(65, 56, 56);
   }
   .faq-container div p{
     font-size: 10px;
-    margin-top: 55px;
+    margin-top: -25px;
     margin-left: 400px;
   }
-  /* ********FAQ ACCORDION ******** */
+  /* ******** STARTS FAQ ACCORDION ******** */
   
   .faq-answer{
     display: none;
@@ -213,4 +239,4 @@ background-color: rgb(65, 56, 56);
   }
  
   
-  
+/* ******** ENDS FAQ ACCORDION ******** */

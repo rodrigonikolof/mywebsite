@@ -7,3 +7,7 @@ Commit 3: Added content and styling to home page.
 Commit 4: Added grid and styling to FAQ page. 
 
 Commit 5: Added working accordion to FAQ page. 
+
+Commit 6: Created and added content to Meet the Team page. 
+            Pictures missing. 
+          Created Contact page. 
