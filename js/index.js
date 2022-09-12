@@ -1,3 +1,4 @@
+/* **************************************STARTS TOGGLE MENU************************************* */
 let toggleNavStatus = false;
 let toggleNavBtn = document.querySelector('.btn-toggle-nav');
 
@@ -35,3 +36,24 @@ let toggleNav = function(){
 }
 
 toggleNavBtn.addEventListener('click', toggleNav);
+
+/* **************************************ENDS TOGGLE MENU************************************* */
+/* ***************************************************************************************** */
+/* ************************************* STARTS ACCORDION******************************* */
+let questions = document.querySelectorAll('.faq-question');
+let answers = document.querySelectorAll('.faq-answer');
+
+
+
+for (let i = 0; i < questions.length; i++){
+    questions[i].addEventListener('click', function() {
+            this.classList.toggle("active");
+            let panel = this.nextElementSibling;
+            if (panel.style.display === 'block'){
+                panel.style.display = 'none';
+            } else {
+                panel.style.display = 'block';
+            }
+        });
+};
+
