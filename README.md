@@ -11,3 +11,7 @@ Commit 5: Added working accordion to FAQ page.
 Commit 6: Created and added content to Meet the Team page. 
             Pictures missing. 
           Created Contact page. 
+
+Commit 7: Content added to Contact page and basic styling completed. 
+          Linked pages to each other. 
+          Further styling done to Meet The Team page; pics still missing as they need editing;
