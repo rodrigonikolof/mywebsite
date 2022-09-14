@@ -15,3 +15,7 @@ Commit 6: Created and added content to Meet the Team page.
 Commit 7: Content added to Contact page and basic styling completed. 
           Linked pages to each other. 
           Further styling done to Meet The Team page; pics still missing as they need editing;
+
+Commit 8: Adjustments made to layout for smaller screens.
+
+Commit 9: Visual overhaul to try and look less bland. 
