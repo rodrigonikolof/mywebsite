@@ -9,12 +9,12 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 15px;
     line-height: 30px;
-    color: aliceblue;
-    text-indent: 50px;
+    color: rgb(81, 136, 185);
+    /* text-indent: 20px; */
     font-size: 16px;
 }
 h1{
-    color: aliceblue;
+    color: rgb(169, 169, 169);
     margin: 15px 15px;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,6 +43,7 @@ h1{
     background-position: center;
     cursor: pointer;
     background-repeat: no-repeat;
+    display: flex;
 }
 .btn-toggle-nav:hover{
 opacity: 0.5;
@@ -55,6 +56,7 @@ opacity: 0.5;
 .nav-main ul li{
     list-style: none;
     line-height: 40px;
+    display: flex;
 }
 .nav-main ul li a {
     display: block;
@@ -103,40 +105,52 @@ opacity: 0.5;
 .nav-sidebar ul li a:hover{
 background-color: rgb(65, 56, 56);
 }
+
+
 .logo-name{
     height: 60px;
     left: 60.5%;
     position: absolute;
 }
+
+
 /* **************************************ENDS NAVBAR AND MENU***************************** */
 /* ***************************************************************************************** */
 /* ************************************* STARTS HOME PAGE ********************************** */
 
 .home-container{
-    display:block;
+    display:flex;
+    flex-direction:column;
     background-color: rgb(0, 0, 0);
-    width: 600px;
-    height: 600px;
+    width: 70%;
+    height: 70%;
     margin:auto;
     margin-top: 120px;
     position:relative;
-    border: 3px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 900;
+    flex-shrink: 0;
 }
+
 
 /* **************************************ENDS HOME PAGE************************************* */
 /* ***************************************************************************************** */
 /* ************************************* STARTS MEET THE TEAM******************************* */
+.team-container-flex{
+  display: flex;
+}
+
 .team-container{
   display:grid;
-  margin-left: 23%;
+  margin-left:15%;
   margin-top: 120px;
-  width: 900px;
-  gap: 10px 10px;
+  width: 80%;
+  gap: 2px 2px;
   /* background-color: rgb(0, 0, 0); */
-  border: 3px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(255, 255, 255); */
   grid-template-columns: 21% 78%;
   grid-template-rows: 60px;
-  grid-auto-rows: 250px;
+  grid-auto-rows: auto;
   padding: 10px;
   }
 
@@ -148,14 +162,14 @@ background-color: rgb(65, 56, 56);
 .team-member p{
   font-family: Arial, Helvetica, sans-serif;
   line-height: 30px;
-  color: aliceblue;
+  color:rgb(81, 136, 185);
   padding-top:  3px;
   font-size: 16px;
   text-indent: 0px;
   margin-top: 0;
 }
 .team-member h1 {
-  color: aliceblue;
+  color: rgb(169, 169, 169);
   margin-top: -5px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -184,7 +198,7 @@ background-color: rgb(65, 56, 56);
     grid-auto-rows: 200px;
     gap: 10px;
     padding: 10px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     grid-auto-columns: minmax(150px, auto);
 }
 
