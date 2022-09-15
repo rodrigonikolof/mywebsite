@@ -1,11 +1,15 @@
 /* **************************************STARTS BODY ***************************** */
 /* font-family: 'Abel', sans-serif;
 font-family: 'Play', sans-serif */
+/* color: rgb(185, 81, 185)   */
+
+
 
 body{
     /* background-color: rgb(167, 126, 214); */
    margin: 0;
-   background-image:radial-gradient(rgb(107, 148, 169), rgb(40, 54, 54))
+   /* background-image:radial-gradient(rgb(107, 148, 169), rgb(40, 54, 54)) */
+   background-color: rgb(0, 0, 0);
 }
 p {
     padding: 15px;
@@ -33,7 +37,7 @@ h1{
     height: 60px;
     background-color: rgb(0, 0, 0);
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     z-index: 1000;
 }
 
@@ -115,6 +119,9 @@ background-color: rgb(65, 56, 56);
     left: 60.5%;
     position: absolute;
 }
+.intro{
+  margin-bottom: -1%;
+}
 
 
 /* **************************************ENDS NAVBAR AND MENU***************************** */
@@ -135,12 +142,17 @@ background-color: rgb(65, 56, 56);
     flex-shrink: 0;
 }
 
+.hello {
+  color: rgb(135, 32, 135) ;
+  margin-bottom: -4%;
+}
 
 /* **************************************ENDS HOME PAGE************************************* */
 /* ***************************************************************************************** */
 /* ************************************* STARTS MEET THE TEAM******************************* */
 .team-container-flex{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .team-container{
@@ -149,20 +161,17 @@ background-color: rgb(65, 56, 56);
   margin-top: 120px;
   width: 80%;
   gap: 2px 2px;
-  /* background-color: rgb(0, 0, 0); */
-  /* border: 1px solid rgb(255, 255, 255); */
   grid-template-columns: 21% 78%;
-  grid-template-rows: 60px;
+  grid-template-rows: 10%;
   grid-auto-rows: auto;
-  padding: 10px;
+  /* padding: 10px; */
   }
 
 .team-member {
   background-color: rgb(0, 0, 0);
-  /* border: 1px solid rgb(255, 255, 255); */
-  /* overflow:auto; */
+  min-width: 100%;
 }
-.team-member p{
+/* .team-member p{
   font-family: 'Abel', sans-serif;
   line-height: 30px;
   color:rgb(81, 136, 185);
@@ -170,18 +179,17 @@ background-color: rgb(65, 56, 56);
   font-size: 16px;
   text-indent: 0px;
   margin-top: 0;
-}
+} */
 .team-member h1 {
   color: rgb(169, 169, 169);
   margin-top: -5px;
   font-family: 'Play', sans-serif;
+  margin-bottom: -3.5%;
 }
 
 .team-member:first-child{
   /* background-color: red; */
   grid-column: 1 / -1;
-  
-  
 }
 
 
@@ -190,19 +198,22 @@ background-color: rgb(65, 56, 56);
 /* ***************************************************************************************** */
 /* ************************************* STARTS FAQ ***************************************** */
 
+.faq-container-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .faq-container{
-    margin-left: 23%;
+    margin-left: 13%;
     margin-top: 120px;
-    width: 900px;
+    width: 80%;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 115px;
-    grid-auto-rows: 200px;
-    gap: 10px;
+    grid-template-rows: 100%;
+    grid-auto-rows: auto;
+    gap: 5px;
     padding: 10px;
-    /* border: 1px solid rgb(255, 255, 255); */
-    grid-auto-columns: minmax(150px, auto);
+    grid-auto-columns: minmax(300px, auto);
 }
 
 .faq-container :first-child {
@@ -210,31 +221,31 @@ background-color: rgb(65, 56, 56);
   }
 
   .faq-container div{
-    /* border: 1px solid rgb(255, 255, 255); */
     background-color: rgb(0, 0, 0);
     align-items: auto;
   }
-  .faq-container div p{
+  /* .faq-container div p{
     font-size: 10px;
     margin-top: -25px;
     margin-left: 400px;
     font-family: 'Abel', sans-serif;
-  }
+  } */
   /* ******** STARTS FAQ ACCORDION ******** */
   
   .faq-answer{
     display: none;
     font-family: 'Abel', sans-serif;
     line-height: 30px;
-    color: aliceblue;
+    color: rgb(185, 81, 185);
     padding: 15px;
     font-size: 16px;
+   
      
   }
   .faq-question{
     font-family: 'Abel', sans-serif;
     line-height: 30px;
-    color: aliceblue;
+    color: rgb(81, 136, 185);;
     padding: 5px;
     font-size: 16px;
     /* border: 1px solid rgb(255, 255, 255); */
@@ -247,10 +258,10 @@ background-color: rgb(65, 56, 56);
 
   .faq-question:after {
     content: '\002B';    /* adds "+" to accordion when closed */
-    color: rgb(255, 255, 255);
+    color: rgb(81, 136, 185);;
     font-weight: bold;
     float: right;
-    margin-left: 5px;
+    /* margin-left: 0px; */
   }
   
   .active:after {
@@ -303,3 +314,11 @@ background-color: black;
 
 
 
+@media screen and (max-width: 600px){
+  .nav-main ul li a{
+  display: none;
+  } 
+  .faq-container{
+    margin-left: 60px;
+  }
+ }

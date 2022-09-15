@@ -19,3 +19,5 @@ Commit 7: Content added to Contact page and basic styling completed.
 Commit 8: Adjustments made to layout for smaller screens.
 
 Commit 9: Visual overhaul to try and look less bland. 
+
+Commit 10: Adjustments to responsiveness, renamed FAQ to About Me. 

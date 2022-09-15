@@ -11,7 +11,7 @@ let toggleNav = function(){
 
     if (toggleNavStatus === false){
         getSidebarUL.style.visibility = "visible";
-        getSidebar.style.width = "272px";
+        getSidebar.style.width = "242px";
         getSidebarTitle.style.opacity = "0.5";
         
         let arrayLength = getSidebarLinks.length;
