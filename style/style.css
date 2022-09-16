@@ -147,6 +147,13 @@ background-color: rgb(65, 56, 56);
   margin-bottom: -4%;
 }
 
+.home-container img{
+  max-width: 20%;
+  min-width: 200px;
+  margin: auto;
+  margin-top: -35px;
+}
+
 /* **************************************ENDS HOME PAGE************************************* */
 /* ***************************************************************************************** */
 /* ************************************* STARTS MEET THE TEAM******************************* */
@@ -170,6 +177,11 @@ background-color: rgb(65, 56, 56);
 .team-member {
   background-color: rgb(0, 0, 0);
   min-width: 100%;
+  display: flex;
+}
+
+.team-member img {
+  max-width: 75%;
 }
 /* .team-member p{
   font-family: 'Abel', sans-serif;
@@ -183,6 +195,7 @@ background-color: rgb(65, 56, 56);
 .team-member h1 {
   color: rgb(169, 169, 169);
   margin-top: -5px;
+  margin-bottom: 10px;
   font-family: 'Play', sans-serif;
   margin-bottom: -3.5%;
 }
@@ -191,12 +204,15 @@ background-color: rgb(65, 56, 56);
   /* background-color: red; */
   grid-column: 1 / -1;
 }
+.team-member:first-child p{
+  color: rgb(135, 32, 135);
+}
 
 
 
 /* **************************************ENDS MEET THE TEAM************************************* */
 /* ***************************************************************************************** */
-/* ************************************* STARTS FAQ ***************************************** */
+/* ************************************* STARTS ABOUT ME ***************************************** */
 
 .faq-container-flex{
   display: flex;
@@ -209,7 +225,7 @@ background-color: rgb(65, 56, 56);
     width: 80%;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100%;
+    grid-template-rows: 400px;
     grid-auto-rows: auto;
     gap: 5px;
     padding: 10px;
@@ -218,11 +234,12 @@ background-color: rgb(65, 56, 56);
 
 .faq-container :first-child {
     grid-column: 1 / -1;
+
   }
 
   .faq-container div{
     background-color: rgb(0, 0, 0);
-    align-items: auto;
+    /* align-items: auto; */
   }
   /* .faq-container div p{
     font-size: 10px;
@@ -235,19 +252,24 @@ background-color: rgb(65, 56, 56);
   .faq-answer{
     display: none;
     font-family: 'Abel', sans-serif;
-    line-height: 30px;
+    /* line-height: 30px; */
     color: rgb(185, 81, 185);
     padding: 15px;
-    font-size: 16px;
-   
-     
+    font-size: 18px;
+    margin-left: 30px;
   }
+  .faq-answer li{
+    padding: 10px;
+  }
+
   .faq-question{
     font-family: 'Abel', sans-serif;
     line-height: 30px;
     color: rgb(81, 136, 185);;
     padding: 5px;
-    font-size: 16px;
+    font-size: 18px;
+    margin-left: 28px;
+    /* margin: 5px; */
     /* border: 1px solid rgb(255, 255, 255); */
   }
 
@@ -276,12 +298,17 @@ background-color: rgb(65, 56, 56);
 /* ***************************************************************************************** */
 /* ************************************* STARTS CONTACT ***************************************** */
 
+
+.contact-flex{
+display: flex;
+}
+
 .contact-info {
 display: grid;
 margin-left: 32%;
 margin-top: 120px;
 width: 550px;
-grid-template-rows: 60px;
+grid-template-rows: 80px;
 grid-auto-rows: 50px;
 background-color: black;
 }
@@ -290,7 +317,7 @@ background-color: black;
     color: aliceblue;
     margin-top: -5px;
     font-family: 'Play', sans-serif;
-    padding-left: 32%;
+    margin-bottom: 25px;
 }
 
 .contact-icon{
@@ -320,5 +347,11 @@ background-color: black;
   } 
   .faq-container{
     margin-left: 60px;
+  }
+  .team-container{
+    display: block;
+  }
+  .faq-container{
+    display: block;
   }
  }
