@@ -21,3 +21,5 @@ Commit 8: Adjustments made to layout for smaller screens.
 Commit 9: Visual overhaul to try and look less bland. 
 
 Commit 10: Adjustments to responsiveness, renamed FAQ to About Me. 
+
+Commit 11: Adjusted side navbar width, updated content in Home Page and About me, re-adjusted responsiveness for scaling. 

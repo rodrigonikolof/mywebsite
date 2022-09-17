@@ -11,7 +11,7 @@ let toggleNav = function(){
 
     if (toggleNavStatus === false){
         getSidebarUL.style.visibility = "visible";
-        getSidebar.style.width = "242px";
+        getSidebar.style.width = "200px";
         getSidebarTitle.style.opacity = "0.5";
         
         let arrayLength = getSidebarLinks.length;
@@ -22,8 +22,8 @@ let toggleNav = function(){
     }
     else if (toggleNavStatus === true){
         getSidebarUL.style.visibility = "hidden";
-        getSidebar.style.width = "60px";
-        getSidebarTitle.style.opacity = "0";
+        getSidebar.style.width = "0px";
+        // getSidebarTitle.style.opacity = "0";
        
         
         let arrayLength = getSidebarLinks.length;
