@@ -23,3 +23,5 @@ Commit 9: Visual overhaul to try and look less bland.
 Commit 10: Adjustments to responsiveness, renamed FAQ to About Me. 
 
 Commit 11: Adjusted side navbar width, updated content in Home Page and About me, re-adjusted responsiveness for scaling. 
+
+Commit 12: Hopefully fixed all url issues that occurred after publishing to GitHub Pages. 
