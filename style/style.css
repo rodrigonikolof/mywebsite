@@ -27,6 +27,11 @@ h1{
     font-family: 'Play', sans-serif;
 
 }
+h2{
+  font-family: 'Abel', sans-serif;
+  color: rgb(135, 32, 135);
+  font-size: 2.5em;
+}
 /* **************************************ENDS BODY ***************************************** */
 /* ***************************************************************************************** */
 /* **************************************STARTS NAVBAR AND MENU***************************** */
@@ -315,9 +320,11 @@ grid-template-rows: 80px;
 grid-auto-rows: 50px;
 background-color: black;
 }
-
+#contact{
+  color: rgb(169 ,169,169);
+}
 .contact-icon:first-child h1{
-    color: aliceblue;
+   color: rgb(176, 170, 170);
     margin-top: -5px;
     font-family: 'Play', sans-serif;
     margin-bottom: 25px;
@@ -342,11 +349,50 @@ background-color: black;
   color: aliceblue;
 }
 
+#projectsh1{
+  margin-top: 11%;
+  margin-left: 18%;
+}
+.projects-container{
+
+  margin-left: 18%;
+  min-width: 64%;
+  max-width: 64%;
+  min-height: 300px;
+  display: grid;
+}
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects p:first-child{
+  margin-bottom: -2%;
+}
+.project-img{
+  max-height: 20em;
+  padding: 2px;
+}
+.project-title-container{
+min-width: 100%;
+display: flex;
+justify-content: center;
+margin-bottom: -3%;
+
+}
+.imgs-container{
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 
 @media screen and (max-width: 800px){
   .team-container{
     display: block;
   }
+  
 }
 
 
@@ -360,5 +406,15 @@ background-color: black;
  
   .faq-container{
     display: block;
+  }
+  /* .projects{
+    min-width: 80%;
+  } */
+  .project-description{
+    width: 23em;
+    margin-left: -3em;
+  }
+  #projectsh1{
+    margin-left: 1em;
   }
  }

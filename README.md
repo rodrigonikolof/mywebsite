@@ -27,3 +27,5 @@ Commit 11: Adjusted side navbar width, updated content in Home Page and About me
 Commit 12: Hopefully fixed all url issues that occurred after publishing to GitHub Pages. 
 
 Commit 13: Created and linked page 'Projects';
+
+Commit 14: Populated first project;

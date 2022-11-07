@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://rodrigonikolof.github.io/mywebsite/style/style.css">
-    <title>Rodrigo Nikolof's Contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://rodrigonikolof.github.io/mywebsite/style/style.css">
+  <title>Rodrigo Nikolof's Projects</title>
 </head>
+
 <body>
   <nav class="nav-main">
     <div class="btn-toggle-nav"></div>
-      <ul>
-        <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/index.html">Home</a></li>
-        <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/pages/aboutme.html">About Me</a></li>
-        <li class="navlink"><a class="nav-link" href="https://rodrigonikolof.github.io/mywebsite/pages/meettheteam.html">Meet the Team</a></li>
-        <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/pages/projects.html">Projects</a></li>
-        <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/pages/contact.html">Contact</a></li>
-      </ul>
-      <!-- <img class="logo-name" src="/img/Rodrigo-Logo.jpg" alt="Rodrigo Logo"> -->
+    <ul>
+      <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/index.html">Home</a></li>
+      <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/pages/aboutme.html">About Me</a></li>
+      <li class="navlink"><a class="nav-link"
+          href="https://rodrigonikolof.github.io/mywebsite/pages/meettheteam.html">Meet the Team</a></li>
+      <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/pages/projects.html">Projects</a></li>
+      <li class="navlink"><a href="https://rodrigonikolof.github.io/mywebsite/pages/contact.html">Contact</a></li>
+    </ul>
+    <!-- <img class="logo-name" src="/img/Rodrigo-Logo.jpg" alt="Rodrigo Logo"> -->
   </nav>
 
-<aside class="nav-sidebar">
-  <ul>
-    <li><span>MENU</span></li>
-    <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/index.html">Home</a></li>
-    <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/aboutme.html">About Me</a></li>
-    <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/meettheteam.html">Meet the Team</a></li>
-    <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/projects.html">Projects</a></li>
-        <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/contact.html">Contact</a></li>
-  </ul>
-</aside>
+  <aside class="nav-sidebar">
+    <ul>
+      <li><span>MENU</span></li>
+      <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/index.html">Home</a></li>
+      <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/aboutme.html">About Me</a></li>
+      <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/meettheteam.html">Meet the
+          Team</a></li>
+      <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/projects.html">Projects</a></li>
+      <li><a class="nav-items" href="https://rodrigonikolof.github.io/mywebsite/pages/contact.html">Contact</a></li>
+    </ul>
+  </aside>
 
+
+  <h1 id="projectsh1">Projects</h1>
+
+  <div class="projects-container">
+
+    <div class="projects">
+      <div class="project-title-container">
+        <h2 class="project-title">furrblr.</h2>
+      </div>
+      <div class="project-description">
+        <p><b><u>Description</u></b></p>
+        <p>Depending on the selection, the code uses a GET request and fetches images from two different RESTful APIs: one provides dog images, the other provides cat images. <br>
+        If an image is bookmarked, a POST request is sent to the JSON Server and stores the information. <br>
+        In the bookmarks section, images are retrieved from the JSON Server and rendered on the screen. Each image receives a button which sends a DELETE request to the server. Images can also be filtered to disply only images of dogs, cats or both.<br>
+        Viewed images which are not bookmarked are added to a local array and can be cycled through.<br>
+        <i>October 2022</i> 
+      </p>
+      </div>
+      <div class="imgs-container">
+        <img src="/img/projects/furrblr.jpg" alt="project image" class="project-img">
+        <img src="/img/projects/furrblr3.jpg" alt="project image" class="project-img">
+        <img src="/img/projects/furrblr4.jpg" alt="project image" class="project-img">
+      </div>
+      
+    </div>
+
+  </div>
+
+
+
+
+
+  <script src="https://rodrigonikolof.github.io/mywebsite/js/index.js"></script>
+</body>
+
+</html>
