@@ -386,6 +386,7 @@ margin-bottom: -3%;
   width: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 5px;
 }
 
 
@@ -419,7 +420,7 @@ margin-bottom: -3%;
     margin-left: 1em;
   }
   .project-img{
-   
+    margin: 1px;
     max-width: 100%;
   }
  }
