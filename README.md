@@ -29,3 +29,5 @@ Commit 12: Hopefully fixed all url issues that occurred after publishing to GitH
 Commit 13: Created and linked page 'Projects';
 
 Commit 14: Populated first project;
+
+Commit 15: Added second project to Projects page. 
