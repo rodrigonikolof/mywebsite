@@ -371,6 +371,7 @@ background-color: black;
 .project-img{
   max-height: 20em;
   padding: 2px;
+  max-width: 50%;
 }
 .project-title-container{
 min-width: 100%;
@@ -416,5 +417,9 @@ margin-bottom: -3%;
   }
   #projectsh1{
     margin-left: 1em;
+  }
+  .project-img{
+   
+    max-width: 100%;
   }
  }
