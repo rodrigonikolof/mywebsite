@@ -371,7 +371,7 @@ background-color: black;
 .project-img{
   max-height: 20em;
   padding: 2px;
-  max-width: 48%;
+  max-width: 45%;
   margin: 10px;
 }
 .project-title-container{
@@ -387,7 +387,7 @@ margin-bottom: -3%;
   width: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 10px;
+  
 }
 
 
